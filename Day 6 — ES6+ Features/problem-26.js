@@ -6,6 +6,6 @@
 
 const user = {firstName: 'Sara', lastName: 'Khan', age: 25};
 const { firstName: name, lastName, age } = user;
-console.log(name); // Output: Sara
-console.log(lastName); // Output: Khan
-console.log(age); // Output: 25
+console.log(name);
+console.log(lastName); 
+console.log(age); 
