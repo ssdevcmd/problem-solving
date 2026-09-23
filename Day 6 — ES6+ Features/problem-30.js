@@ -6,7 +6,10 @@
 
 
 const user1 = {profile: null}
-const user2 = {profile: {address: {city: 'Dhaka'}}}
+const user2 = {profile: 
+    {address: 
+        {city: 'Dhaka'}
+    }}
 
 function getCityName(user){
     return user?.profile?.address?.city?? 'Unknown';
