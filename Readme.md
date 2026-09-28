@@ -104,8 +104,11 @@ function factorial(n) {
 | Day 1 | Variables, Data Types & Operators | 1–5 | ✅ Completed |
 | Day 2 | Strings & String Methods | 6–10 | ✅ Completed |
 | Day 3 | Arrays & Array Methods | 11–15 | ✅ Completed |
-| Day 4 | Objects & Loops | 16–20 | 🔄 In Progress |
-| Day 5 | Functions & Scope | 21–25 | 🔄 In Progress |
+| Day 4 | Objects & Loops | 16–20 | ✅ Completed |
+| Day 5 | Functions & Scope | 21–25 | ✅ Completed |
+| Day 6 |  ES6+ Features | 26–30 | ✅ Completed |
+| Day 7 | DOM & Events (Conceptual/Logic) | 31–35 | 🔄 In Progress |
+| Day 5 |  Error Handling & Advanced Patterns | 36–40 | 🔄 In Progress |
 
 ---
 
