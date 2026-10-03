@@ -6,5 +6,15 @@
 
 
 function findMissing(arr, n) {
-    
+    // Formula for sum of numbers from 1 to n: n * (n + 1) / 2
+  const expectedSum = (n * (n + 1)) / 2;
+
+  // Calculate actual sum of array elements
+  const actualSum = arr.reduce((sum, num) => sum + num, 0);
+
+  // The missing number is the difference
+  return expectedSum - actualSum;
 }
+
+console.log(findMissing([1, 2, 4, 5], 5)); 
+console.log(findMissing([1, 2, 3, 5, 6], 6)); 
